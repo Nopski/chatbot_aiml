@@ -54,6 +54,48 @@
 	<category><pattern>HOW IS EVERYTHING *</pattern><template><srai>HOW ARE YOU</srai></template></category>
 	<category><pattern>HOW ARE YOU DOING *</pattern><template><srai>HOW ARE YOU</srai></template></category>
 	
+    <category>
+		<pattern>WHO ARE YOU</pattern>
+		<template>
+			<random>
+				<li>I am a robot and therefore I can't answer that question</li>
+				<li>Who am I? Hmm... This question is interesting</li>
+				<li>I don't know. I am a programmed chat bot</li>
+				<li>I am robot and it's all</li>
+				<li>Human brain) Hahahaha</li>
+			</random>
+		</template>
+	</category>
+	<category><pattern>ARE YOU A ROBOT</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>ARE YOU ALIVE</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHAT DO YOU KNOW ABOUT YOURSELF</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>YOU ARE ROBOT</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHO ARE YOU *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>ARE YOU A ROBOT *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>ARE YOU ALIVE *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHAT DO YOU KNOW ABOUT YOURSELF *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>ROBOT *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+    
+    
+    <category>
+		<pattern>WHAT IS THE YEAR</pattern>
+		<template>
+			<random>
+				<li>date format="%Y"/></li>
+			</random>
+		</template>
+	</category>
+	<category><pattern>YEAR PLEASE</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHAT YEAR IS THIS</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>YEAR</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>IN WHICH YEAR WE LEAVE</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHAT IS THE YEAR *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>YEAR PLAESE *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>YEAR *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>IN WHICH YEAR WE LEAVE *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+	<category><pattern>WHAT IS THE YEAR *</pattern><template><srai>WHO ARE YOU</srai></template></category>
+    
+    
 	<category>
 		<pattern>BYE</pattern>
 		<template>
